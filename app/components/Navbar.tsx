@@ -12,7 +12,7 @@ export default function Navbar() {
                     DankaStur
                 </Link>
                 <a
-                    href="https://wa.me/6285721331216"
+                    href="https://wa.me/6289637093889"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-4 py-2 bg-zinc-800 rounded-lg hover:bg-zinc-700 transition-colors"
