@@ -3,9 +3,20 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 10, 15;
+  --background-end-rgb: 15, 15, 20;
 }
 
 body {
-  @apply bg-white text-black;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl;
+  }
 }
